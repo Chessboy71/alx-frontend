@@ -1,4 +1,4 @@
-/* Resetting the CSS stylesheet for browser consistency */
+/* Add universal box-sizing */
 @import url(normalize.css);
 
 * {

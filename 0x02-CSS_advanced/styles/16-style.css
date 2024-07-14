@@ -1,4 +1,4 @@
-/* Resetting the CSS stylesheet for browser consistency */
+/* Add universal box-sizing */
 @import url(normalize.css);
 
 * {
@@ -104,4 +104,10 @@ a:active {
     font-family: var(--font-family-title);
     text-transform: var(--section-tagline-transform);
     font-weight: var(--font-weight-bold);
+}
+
+.containter {
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
 }
