@@ -1,11 +1,11 @@
 /* Customizing the navbar */
 @import url(normalize.css);
 
-* {
-    padding: 0;
-    margin: 0;
+*,
+*:before,
+*:after {
     box-sizing: border-box;
-
+}
 }
 
 :root {
