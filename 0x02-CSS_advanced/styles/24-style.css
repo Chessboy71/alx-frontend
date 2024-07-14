@@ -207,10 +207,38 @@ ul.row {
     text-align: right;
 }
 
+.footer-address {
+    color: var(--text-color);
+}
+
+.social-link {
+    display: block;
+}
+
+.social-link>svg {
+    color: var(--text-color);
+}
+
 .row::after {
     content: "";
     display: table;
     clear: both;
+}
+
+.card-services>.card-title {
+    margin: 0;
+}
+
+.card-services>a {
+    display: block;
+    margin: 2rem;
+    background-color: var(--color-light-grey);
+}
+
+.card-services>a:hover {
+    color: var(--color-white);
+    background-color: var(--color-primary);
+    text-decoration: none;
 }
 
 [class*="col-"] {
